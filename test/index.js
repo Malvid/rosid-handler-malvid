@@ -1,0 +1,59 @@
+'use strict'
+
+const assert = require('chai').assert
+const uuid = require('uuid/v4')
+const isHTML = require('is-html')
+const isJSON = require('is-json')
+const index = require('../src/index')
+
+describe('index()', function() {
+
+	it('should return an error when called without a filePath', async function() {
+
+		return index().then((result) => {
+
+			throw new Error('Returned without error')
+
+		}, (err) => {
+
+			assert.strictEqual(err.message, `'filePath' must be a string`)
+
+		})
+
+	})
+
+	it('should return an error when called with invalid options', async function() {
+
+		return index(`${ uuid() }.html`, '').then((result) => {
+
+			throw new Error('Returned without error')
+
+		}, (err) => {
+
+			assert.strictEqual(err.message, `'opts' must be an object, null or undefined`)
+
+		})
+
+	})
+
+	it('should render HTML', async function() {
+
+		this.timeout(20000)
+
+		const result = await index(`${ uuid() }.html`)
+
+		assert.isTrue(isHTML(result))
+
+	})
+
+	it('should render JSON', async function() {
+
+		this.timeout(20000)
+
+		const result = await index(`${ uuid() }.html.json`, opts)
+
+		assert.isTrue(isJSON(result))
+
+	})
+
+})

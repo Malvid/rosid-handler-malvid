@@ -1,0 +1,45 @@
+{
+  "name": "rosid-handler-malvid",
+  "version": "1.0.0",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "UI to help you build and document web components",
+  "main": "src/index.js",
+  "keywords": [
+    "rosid",
+    "handler",
+    "transform",
+    "compile",
+    "malvid",
+    "html",
+    "ui",
+    "component"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/comwrap/rosid-handler-malvid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comwrap/rosid-handler-malvid.git"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc node_modules/mocha/bin/_mocha",
+    "prepublish": "npm test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "is-html": "^1.1.0",
+    "is-json": "^2.0.1",
+    "mocha": "^4.0.0",
+    "nyc": "^11.2.1",
+    "uuid": "^3.1.0"
+  },
+  "dependencies": {
+    "is-plain-obj": "^1.1.0"
+  }
+}
