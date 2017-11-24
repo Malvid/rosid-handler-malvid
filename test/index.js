@@ -38,7 +38,7 @@ describe('index()', function() {
 
 	it('should render HTML', async function() {
 
-		this.timeout(20000)
+		this.timeout(50000)
 
 		const result = await index(`${ uuid() }.html`)
 
@@ -48,7 +48,7 @@ describe('index()', function() {
 
 	it('should render JSON', async function() {
 
-		this.timeout(20000)
+		this.timeout(50000)
 
 		const result = await index(`${ uuid() }.html.json`)
 
