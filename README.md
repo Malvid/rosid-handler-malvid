@@ -15,10 +15,10 @@ npm install rosid-handler-malvid
 ### API
 
 ```js
-const malvid = require('rosid-handler-malvid')
+const handler = require('rosid-handler-malvid')
 
-malvid('.html').then(console.log) // Returns HTML of the UI
-malvid('.json').then(console.log) // Returns JSON for the UI
+handler('.html').then(console.log) // Returns HTML of the UI
+handler('.json').then(console.log) // Returns JSON for the UI
 ```
 
 ### Rosid
