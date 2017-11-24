@@ -50,7 +50,7 @@ describe('index()', function() {
 
 		this.timeout(20000)
 
-		const result = await index(`${ uuid() }.html.json`, opts)
+		const result = await index(`${ uuid() }.html.json`)
 
 		assert.isTrue(isJSON(result))
 
