@@ -40,6 +40,7 @@
     "uuid": "^3.1.0"
   },
   "dependencies": {
-    "is-plain-obj": "^1.1.0"
+    "is-plain-obj": "^1.1.0",
+    "malvid": "^4.0.0"
   }
 }
