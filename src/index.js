@@ -12,14 +12,14 @@ const malvid = require('malvid')
  */
 module.exports = async function(filePath, opts = {}) {
 
-	if (typeof filePath!=='string') throw new Error(`'filePath' must be a string`)
-	if (isPlainObj(opts)===false && opts!=null) throw new Error(`'opts' must be an object, null or undefined`)
+	if (typeof filePath !== 'string') throw new Error(`'filePath' must be a string`)
+	if (isPlainObj(opts) === false && opts != null) throw new Error(`'opts' must be an object, null or undefined`)
 
 	const result = await malvid(opts)
-	const jsonRequest = filePath.substr(-5)==='.json'
+	const jsonRequest = filePath.substr(-5) === '.json'
 
 	// Return the state when client requests JSON
-	if (jsonRequest===true) return JSON.stringify(await result.json)
+	if (jsonRequest === true) return JSON.stringify(await result.json)
 
 	// Render the page
 	return result.html

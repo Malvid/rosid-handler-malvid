@@ -10,7 +10,7 @@ describe('index()', function() {
 
 	it('should return an error when called without a filePath', async function() {
 
-		return index().then((result) => {
+		return index().then(() => {
 
 			throw new Error('Returned without error')
 
@@ -24,7 +24,7 @@ describe('index()', function() {
 
 	it('should return an error when called with invalid options', async function() {
 
-		return index(`${ uuid() }.html`, '').then((result) => {
+		return index(`${ uuid() }.html`, '').then(() => {
 
 			throw new Error('Returned without error')
 
