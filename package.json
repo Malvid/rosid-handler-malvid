@@ -34,12 +34,12 @@
     "coveralls": "^3.0.0",
     "is-html": "^1.1.0",
     "is-json": "^2.0.1",
-    "mocha": "^4.0.0",
-    "nyc": "^11.2.1",
-    "uuid": "^3.1.0"
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "uuid": "^3.2.1"
   },
   "dependencies": {
     "is-plain-obj": "^1.1.0",
-    "malvid": "^4.0.0"
+    "malvid": "^4.1.1"
   }
 }
