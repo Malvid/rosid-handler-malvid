@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.1",
     "is-html": "^1.1.0",
     "is-json": "^2.0.1",
     "mocha": "^5.1.1",
@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "is-plain-obj": "^1.1.0",
-    "malvid": "^4.1.1"
+    "malvid": "^4.2.0"
   }
 }
