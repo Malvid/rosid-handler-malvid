@@ -19,9 +19,9 @@ module.exports = async function(filePath, opts = {}) {
 	const jsonRequest = filePath.substr(-5) === '.json'
 
 	// Return the state when client requests JSON
-	if (jsonRequest === true) return JSON.stringify(await result.json)
+	if (jsonRequest === true) return JSON.stringify(await result.json())
 
 	// Render the page
-	return result.html
+	return result.html()
 
 }
