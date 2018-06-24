@@ -27,9 +27,9 @@ Add the following object to your `rosidfile.json`, `rosidfile.js` or [routes arr
 
 ```json
 {
-	"name"    : "Malvid",
-	"path"    : "ui/index.{html,html.json}",
-	"handler" : "rosid-handler-malvid"
+  "name"    : "Malvid",
+  "path"    : "ui/index.{html,html.json}",
+  "handler" : "rosid-handler-malvid"
 }
 ```
 
