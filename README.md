@@ -1,6 +1,6 @@
 # rosid-handler-malvid
 
-[![Travis Build Status](https://travis-ci.org/comwrap/rosid-handler-malvid.svg?branch=master)](https://travis-ci.org/comwrap/rosid-handler-malvid) [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/6fxwnrdhoh7xw9n1?svg=true)](https://ci.appveyor.com/project/electerious/rosid-handler-malvid) [![Coverage Status](https://coveralls.io/repos/github/comwrap/rosid-handler-malvid/badge.svg?branch=master)](https://coveralls.io/github/comwrap/rosid-handler-malvid?branch=master)  [![Dependencies](https://david-dm.org/comwrap/rosid-handler-malvid.svg)](https://david-dm.org/comwrap/rosid-handler-malvid#info=dependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/Malvid/rosid-handler-malvid.svg)](https://greenkeeper.io/)
+[![Travis Build Status](https://travis-ci.org/Malvid/rosid-handler-malvid.svg?branch=master)](https://travis-ci.org/Malvid/rosid-handler-malvid) [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/6fxwnrdhoh7xw9n1?svg=true)](https://ci.appveyor.com/project/electerious/rosid-handler-malvid) [![Coverage Status](https://coveralls.io/repos/github/comwrap/rosid-handler-malvid/badge.svg?branch=master)](https://coveralls.io/github/comwrap/rosid-handler-malvid?branch=master)  [![Dependencies](https://david-dm.org/comwrap/rosid-handler-malvid.svg)](https://david-dm.org/comwrap/rosid-handler-malvid#info=dependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/Malvid/rosid-handler-malvid.svg)](https://greenkeeper.io/)
 
 UI to help you build and document web components.
 
