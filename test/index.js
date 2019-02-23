@@ -30,7 +30,7 @@ describe('index()', function() {
 
 		}, (err) => {
 
-			assert.strictEqual(err.message, `'opts' must be an object, null or undefined`)
+			assert.strictEqual(err.message, `'opts' must be undefined or an object`)
 
 		})
 

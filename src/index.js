@@ -1,6 +1,5 @@
 'use strict'
 
-const isPlainObj = require('is-plain-obj')
 const malvid = require('malvid')
 
 /**
@@ -13,7 +12,7 @@ const malvid = require('malvid')
 module.exports = async function(filePath, opts = {}) {
 
 	if (typeof filePath !== 'string') throw new Error(`'filePath' must be a string`)
-	if (isPlainObj(opts) === false && opts != null) throw new Error(`'opts' must be an object, null or undefined`)
+	if (typeof opts !== 'object') throw new Error(`'opts' must be undefined or an object`)
 
 	const result = await malvid(opts)
 	const jsonRequest = filePath.substr(-5) === '.json'
