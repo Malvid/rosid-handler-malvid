@@ -38,8 +38,6 @@ describe('index()', function() {
 
 	it('should render HTML', async function() {
 
-		this.timeout(50000)
-
 		const result = await index(`${ uuid() }.html`)
 
 		assert.isTrue(isHTML(result))
@@ -47,8 +45,6 @@ describe('index()', function() {
 	})
 
 	it('should render JSON', async function() {
-
-		this.timeout(50000)
 
 		const result = await index(`${ uuid() }.html.json`)
 
