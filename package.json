@@ -40,5 +40,8 @@
   },
   "dependencies": {
     "malvid": "^5.4.0"
+  },
+  "mocha": {
+    "timeout": "100000"
   }
 }
