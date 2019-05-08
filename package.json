@@ -39,7 +39,7 @@
     "uuid": "^3.3.2"
   },
   "dependencies": {
-    "malvid": "^5.6.0"
+    "malvid": "^5.6.1"
   },
   "mocha": {
     "timeout": "100000"
