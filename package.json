@@ -17,10 +17,10 @@
     "component"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/comwrap/rosid-handler-malvid",
+  "homepage": "https://github.com/Malvid/rosid-handler-malvid",
   "repository": {
     "type": "git",
-    "url": "https://github.com/comwrap/rosid-handler-malvid.git"
+    "url": "https://github.com/Malvid/rosid-handler-malvid.git"
   },
   "files": [
     "src"
