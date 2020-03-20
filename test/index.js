@@ -1,7 +1,7 @@
 'use strict'
 
 const assert = require('chai').assert
-const uuid = require('uuid/v4')
+const uuid = require('uuid').v4
 const isHTML = require('is-html')
 const isJSON = require('is-json')
 const index = require('../src/index')
