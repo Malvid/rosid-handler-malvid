@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "coveralls": "^3.0.9",
+    "coveralls": "^3.0.14",
     "is-html": "^2.0.0",
     "is-json": "^2.0.1",
     "mocha": "^7.0.0",
